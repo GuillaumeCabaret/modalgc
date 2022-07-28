@@ -7,11 +7,11 @@ exports.default = void 0;
 
 var _reactRedux = require("react-redux");
 
-var _employeeReducer = require("../../app/employeeReducer");
+var _employeeReducer = require("./app/employeeReducer");
 
-var _store = require("../../app/store");
+var _store = require("./app/store");
 
-function Modal(props) {
+function Modal() {
   const modal = (0, _reactRedux.useSelector)(state => state.modalVisibility);
 
   function closeModal() {
