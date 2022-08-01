@@ -5,8 +5,8 @@ function Modal(props) {
     if(props.isOpen) {
         return (
             <>
-                <div class="modal-background">
-                    <div class="modal">
+                <div className="modal-background">
+                    <div className="modal">
                         <button onClick={props.closeModal}>X</button>
                         <p> Employee added</p>
                     </div>
