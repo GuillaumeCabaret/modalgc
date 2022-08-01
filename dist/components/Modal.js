@@ -12,9 +12,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Modal(props) {
   if (props.isOpen) {
     return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
-      class: "modal-background"
+      className: "modal-background"
     }, /*#__PURE__*/_react.default.createElement("div", {
-      class: "modal"
+      className: "modal"
     }, /*#__PURE__*/_react.default.createElement("button", {
       onClick: props.closeModal
     }, "X"), /*#__PURE__*/_react.default.createElement("p", null, " Employee added"))));
